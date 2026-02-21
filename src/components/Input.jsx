@@ -86,7 +86,7 @@ const Input = ({ id, handleNewNote, color }) => {
           <path
             d="M0 29V18.125L14.5 14.5L0 10.875V0L34.4375 14.5L0 29Z"
             // Change color if active (blue) or disabled (gray)
-            fill={note ? "#001F8B" : "#ABABAB"} 
+            fill={note ? color : "#ABABAB"} 
           />
         </svg>
       </div>
