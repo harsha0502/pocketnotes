@@ -17,6 +17,7 @@ function App() {
     notes: [],
     color: "",
   });
+  newNoteGroup.notes = [];
   const [selectedNote, setSelectedNote] = useState({});
   const [isMobile, setIsMobile] = useState(false);
   const [display, setDisplay] = useState(false);
